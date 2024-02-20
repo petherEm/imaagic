@@ -13,6 +13,10 @@ const IBMPlex = IBM_Plex_Sans({
 export const metadata: Metadata = {
   title: "Imaagic",
   description: "Imaagic - AI Powered Image Editor",
+  metadataBase: new URL("https://imaagic.vercel.app/"),
+  openGraph: {
+    images: "/logo.png",
+  },
 };
 
 export default function RootLayout({
